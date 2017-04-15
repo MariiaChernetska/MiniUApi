@@ -288,3 +288,5 @@ __pycache__/
 *.xsd.cs
 MiniUApi/bin
 MiniUApi/obj/Debug
+MiniUApi/Uploads/Previews/**
+MiniUApi/Uploads/Videos/**
