@@ -1,0 +1,9 @@
+C:\DelphiFinal\MiniUApi\MiniUApi.Data\obj\Debug\MiniUApi.Data.csprojResolveAssemblyReference.cache
+C:\DelphiFinal\MiniUApi\MiniUApi.Data\bin\Debug\MiniUApi.Data.dll
+C:\DelphiFinal\MiniUApi\MiniUApi.Data\bin\Debug\MiniUApi.Data.pdb
+C:\DelphiFinal\MiniUApi\MiniUApi.Data\obj\Debug\MiniUApi.Data.dll
+C:\DelphiFinal\MiniUApi\MiniUApi.Data\obj\Debug\MiniUApi.Data.pdb
+C:\DelphiFinal\MiniUApi\MiniUApi.Data\bin\Debug\Dapper.dll
+C:\DelphiFinal\MiniUApi\MiniUApi.Data\bin\Debug\MiniUApi.Models.dll
+C:\DelphiFinal\MiniUApi\MiniUApi.Data\bin\Debug\MiniUApi.Models.pdb
+C:\DelphiFinal\MiniUApi\MiniUApi.Data\bin\Debug\Dapper.xml

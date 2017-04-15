@@ -1,0 +1,5 @@
+C:\DelphiFinal\MiniUApi\MiniUApi.Models\obj\Debug\MiniUApi.Models.csprojResolveAssemblyReference.cache
+C:\DelphiFinal\MiniUApi\MiniUApi.Models\bin\Debug\MiniUApi.Models.dll
+C:\DelphiFinal\MiniUApi\MiniUApi.Models\bin\Debug\MiniUApi.Models.pdb
+C:\DelphiFinal\MiniUApi\MiniUApi.Models\obj\Debug\MiniUApi.Models.dll
+C:\DelphiFinal\MiniUApi\MiniUApi.Models\obj\Debug\MiniUApi.Models.pdb
