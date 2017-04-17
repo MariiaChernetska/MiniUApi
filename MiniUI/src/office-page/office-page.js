@@ -35,6 +35,11 @@ class OfficePage extends React.Component{
                 }
               myThis.owlL();
 
+          }).catch(function(error){
+              console.log(error.response)
+              if(error.response.status === 401){
+                  myThis.redirectToLogin() 
+              }
           });
     }
     getVideos(pageNum){
@@ -60,10 +65,18 @@ class OfficePage extends React.Component{
       
         
     }
+    redirectToLogin() {
+        this.context.router.transitionTo('/login')
+       
+    }
     renderNewVideo(newVideo){
         var buf = this.state.userVideos;
         buf.unshift(newVideo)
-        buf.pop()
+        if(buf.length > 4)
+        {
+            buf.pop()
+        }
+        
         this.setState({
             userVideos: buf
         })
@@ -147,5 +160,7 @@ owlL(){
         })
     }
 }
-
+OfficePage.contextTypes = {
+    router: React.PropTypes.object
+};
 export default OfficePage

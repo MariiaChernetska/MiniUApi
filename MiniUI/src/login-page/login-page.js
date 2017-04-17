@@ -38,7 +38,8 @@ class LoginPage extends React.Component{
             myThis.props.loginer(true)
             myThis.redirectToOffice();
          
-       }).catch(function (error) {
+        }).catch(function (error) {
+          
            if(error.response){
              myThis.setState({
                 

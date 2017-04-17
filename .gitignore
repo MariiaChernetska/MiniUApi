@@ -287,7 +287,8 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 MiniUApi/bin
-MiniUApi/obj/Debug
+MiniUApi/obj
+
 MiniUApi/Uploads/Previews/**
 MiniUApi/Uploads/Videos/**
 packages

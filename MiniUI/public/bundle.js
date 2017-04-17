@@ -12112,6 +12112,7 @@ var LoginPage = function (_React$Component) {
                 myThis.props.loginer(true);
                 myThis.redirectToOffice();
             }).catch(function (error) {
+
                 if (error.response) {
                     myThis.setState({
 
@@ -12560,6 +12561,11 @@ var OfficePage = function (_React$Component) {
                     myThis.state.loadMore = true;
                 }
                 myThis.owlL();
+            }).catch(function (error) {
+                console.log(error.response);
+                if (error.response.status === 401) {
+                    myThis.redirectToLogin();
+                }
             });
         }
     }, {
@@ -12586,6 +12592,11 @@ var OfficePage = function (_React$Component) {
 
             var position = null;
             this.state.userVideos.length % 4 == 0 ? position = this.state.userVideos.length / 4 : position = Math.floor(this.state.userVideos.length / 4) - 1;
+        }
+    }, {
+        key: 'redirectToLogin',
+        value: function redirectToLogin() {
+            this.context.router.transitionTo('/login');
         }
     }, {
         key: 'renderNewVideo',
@@ -12694,6 +12705,9 @@ var OfficePage = function (_React$Component) {
     return OfficePage;
 }(__WEBPACK_IMPORTED_MODULE_0_react___default.a.Component);
 
+OfficePage.contextTypes = {
+    router: __WEBPACK_IMPORTED_MODULE_0_react___default.a.PropTypes.object
+};
 /* harmony default export */ exports["a"] = OfficePage;
 
 /***/ },
